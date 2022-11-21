@@ -13,7 +13,7 @@
                 nota y comentarios y dos botones, uno de guardar y otro de borrar.
 
         #Formulario
-            - Alumnos -> spinner
+            - Alumnos -> Spinner
             - Nota -> EditText
          Comentarios -> EditText
 
