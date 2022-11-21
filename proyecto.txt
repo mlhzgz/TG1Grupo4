@@ -1,18 +1,36 @@
 # Partes del proyecto
+    - JEFE DE EQUIPO: MIGUEL LIZARANZU.
 
     # Estructuras de datos
+        La aplicación manejará trabajos, alumnos y notas de sus trabajos
+
 
     # Estructuras de código
         # actividades
-            # ListView?
-            # RecyclerView?
-            # Formulario
-                # controles
-                ll
+            - Splash
+            - Actividad listado de trabajos con un listview
+            - Actividad formulario para el profesor (incluirá título de trabajo, spinner para seleccionar alumno, campo para poner
+                nota y comentarios y dos botones, uno de guardar y otro de borrar.
 
-        # adapters
-        # servicios
+        #Formulario
+            - Alumnos -> spinner
+            - Nota -> EditText
+         Comentarios -> EditText
+
+        # Controles:
+             - Botón GUARDAR
+             - Botón BORRAR
+
+
         # lógica de negocio
+            -Validar Formulario para evitar campos vacíos. Nota, alumno OBLIGATORIO y Comentario OPCIONAL.
         # ...
 
     # Descripción del proyecto
+    La clase Splash o main activity se utilizará para dar la bienvenida al usuario. Esa clase splash llevará al usuario
+    a una clase con un ListView, donde estarán los 10 trabajos. En cada uno de los trabajos se podrá pinchar y al pinchar se abrira otra actividad
+    con un formulario, en el cual aparecerá como título el nombre del trabajo e incluira un spinner para poder seleccionar al alumno en cuestión para calificarle.
+    Además se le podrán añadir comentarios. En la parte inferior de dicha actividad, aparecerán dos botones: uno de guardar (que guardará los datos
+    en memoria) y otro para borrar (vaciará los campos). Al cambiar de alumno, los campos se pondrán en blanco y al seleccionar a alumno ya calificado,
+    podremos ver la informacion de nuevo. Para validar el formulario, se deberá seleccionar obligatoriamente el nombre del alumno,
+    y su correspondiente califiación. Los comentarios serán opcionales.
