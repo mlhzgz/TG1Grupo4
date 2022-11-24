@@ -47,7 +47,7 @@ public class listaTrabajos extends AppCompatActivity {
         listaTrabajos.add(new Trabajos(6,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica con RecyclerView"));
         listaTrabajos.add(new Trabajos(7,R.drawable.book_open_page_variant_outline,"Trabajo 5","Crear alertDialog"));
         listaTrabajos.add(new Trabajos(8,R.drawable.book_open_page_variant_outline,"Trabajo 6","Trabajo grupal diciembre"));
-        listaTrabajos.add(new Trabajos(9,R.drawable.book_open_page_variant_outline,"Trabajo 7","Crear Login"));
+        listaTrabajos.add(new Trabajos(9,R.drawable.book_open_page_variant_outline,"Trabajo 7","Crear un Login"));
         listaTrabajos.add(new Trabajos(10,R.drawable.book_open_page_variant_outline,"Trabajo 8","Trabajo grupal enero"));
 
         return  listaTrabajos;
