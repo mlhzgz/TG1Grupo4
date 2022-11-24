@@ -38,8 +38,11 @@ public class listaTrabajos extends AppCompatActivity {
     }
 
     private List<Trabajos> getData() {
-        listTrabajos=new ArrayList<>();
-        listTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual"));
+        listaTrabajos=new ArrayList<>();
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Calcular letra DNI"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupall"));
 
         return  listaTrabajos;
 
