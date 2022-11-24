@@ -39,16 +39,16 @@ public class listaTrabajos extends AppCompatActivity {
 
     private List<Trabajos> getData() {
         listaTrabajos=new ArrayList<>();
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Calcular letra DNI"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual diciembre"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica con RecyclerView"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Crear alertDialog"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal diciembre"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Crear Login"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal enero"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo 1","Trabajo mensual"));
+        listaTrabajos.add(new Trabajos(2,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica"));
+        listaTrabajos.add(new Trabajos(3,R.drawable.book_open_page_variant_outline,"Trabajo 2","Calcular letra DNI"));
+        listaTrabajos.add(new Trabajos(4,R.drawable.book_open_page_variant_outline,"Trabajo 3","Trabajo grupal"));
+        listaTrabajos.add(new Trabajos(5,R.drawable.book_open_page_variant_outline,"Trabajo 4","Trabajo mensual diciembre"));
+        listaTrabajos.add(new Trabajos(6,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica con RecyclerView"));
+        listaTrabajos.add(new Trabajos(7,R.drawable.book_open_page_variant_outline,"Trabajo 5","Crear alertDialog"));
+        listaTrabajos.add(new Trabajos(8,R.drawable.book_open_page_variant_outline,"Trabajo 6","Trabajo grupal diciembre"));
+        listaTrabajos.add(new Trabajos(9,R.drawable.book_open_page_variant_outline,"Trabajo 7","Crear Login"));
+        listaTrabajos.add(new Trabajos(10,R.drawable.book_open_page_variant_outline,"Trabajo 8","Trabajo grupal enero"));
 
         return  listaTrabajos;
 
