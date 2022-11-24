@@ -42,7 +42,13 @@ public class listaTrabajos extends AppCompatActivity {
         listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual"));
         listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica"));
         listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Calcular letra DNI"));
-        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupall"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo mensual diciembre"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Examen","Elaborar interfaz gráfica con RecyclerView"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Crear alertDialog"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal diciembre"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Crear Login"));
+        listaTrabajos.add(new Trabajos(1,R.drawable.book_open_page_variant_outline,"Trabajo","Trabajo grupal enero"));
 
         return  listaTrabajos;
 
