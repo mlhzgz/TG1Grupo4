@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_alumnos">
+        <item>Seleccione</item>
+        <item>Carlos</item>
+        <item>Pedro</item>
+        <item>Miguel</item>
+        <item>Nicolas</item>
+        <item>Mario</item>
+        <item>Andrés</item>
+    </string-array>
+</resources>
