@@ -1,6 +1,8 @@
 package com.example.tg1grupo4;
 
-public class Trabajos {
+import java.io.Serializable;
+
+public class Trabajos implements Serializable {
     public int id;
     public int imagen;
     public String titulo;
