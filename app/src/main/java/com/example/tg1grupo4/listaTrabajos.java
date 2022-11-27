@@ -2,6 +2,7 @@ package com.example.tg1grupo4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -33,6 +34,9 @@ public class listaTrabajos extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Trabajos t = listaTrabajos.get(i);
                 Toast.makeText(getBaseContext(),t.titulo,Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(com.example.tg1grupo4.listaTrabajos.this,DetallesActivity.class);
+                intent.putExtra("objetoData",listaTrabajos.get(i));
+                startActivity(intent);
             }
         });
     }
