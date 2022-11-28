@@ -50,7 +50,7 @@
         android:layout_height="130dp"
         android:gravity="top"
         android:hint="Escribe un comentario"
-        android:inputType="text"
+        android:inputType="textMultiLine|text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
