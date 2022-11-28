@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DetallesActivity extends AppCompatActivity {
 
@@ -25,21 +26,25 @@ public class DetallesActivity extends AppCompatActivity {
 
         Item = (Trabajos) getIntent().getSerializableExtra("objetoData");
 
-        textViewDetallesTarea = (TextView) findViewById(R.id.textViewDetallesTarea);
+        textViewDetallesTarea = (TextView) findViewById(R.id.textViewDetallesTarea);  //implementar metodo onclick
         EditTextNota = (EditText) findViewById(R.id.EditTextNota);
         EditTextComentario = (EditText) findViewById(R.id.EditTextComentario);
         spinner_alumnos = (Spinner) findViewById(R.id.spinner_alumnos);
         buttonBorrar = (Button)findViewById(R.id.buttonBorrar);
 
-        textViewDetallesTarea.setText(Item.getTitulo());
+        textViewDetallesTarea.setText(Item.getTitulo());    //para q cambia el titulo dentro de cada tarea
         EditTextNota.setText("");
         EditTextComentario.setText("");
 
         buttonBorrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast toast1= Toast.makeText(getApplicationContext(),
+                        "Datos reinicializados con éxito", Toast.LENGTH_SHORT);
+                toast1.show();
                 EditTextNota.setText("");
                 EditTextComentario.setText("");
+
             }
         });
         ArrayAdapter<CharSequence>adapter=ArrayAdapter.createFromResource(this,R.array.combo_alumnos, android.R.layout.simple_spinner_item);
