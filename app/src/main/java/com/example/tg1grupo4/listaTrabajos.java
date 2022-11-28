@@ -34,7 +34,7 @@ public class listaTrabajos extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Trabajos t = listaTrabajos.get(i);
                 Toast.makeText(getBaseContext(),t.titulo,Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(com.example.tg1grupo4.listaTrabajos.this,DetallesActivity.class);
+                Intent intent = new Intent(com.example.tg1grupo4.listaTrabajos.this,DetallesActivity.class);    //Vincular array con Detalles activity
                 intent.putExtra("objetoData",listaTrabajos.get(i));
                 startActivity(intent);
             }
