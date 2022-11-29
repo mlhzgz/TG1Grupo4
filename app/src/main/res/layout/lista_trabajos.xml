@@ -7,13 +7,15 @@
     android:animateLayoutChanges="true"
     app:cardCornerRadius="20dp"
     app:cardElevation="4dp"
-    app:cardUseCompatPadding="true">
+    app:cardUseCompatPadding="true"
+    android:background="#80D8FF">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:animateLayoutChanges="true"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".listaTrabajos">
+    tools:context=".listaTrabajos"
+    android:background="#80D8FF">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +26,8 @@
         <ListView
             android:id="@+id/ListViewTrabajos"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
